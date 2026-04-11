@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para ti 🤍</title>
+
+  <style>
+    body {
+      background-color: #4a90e2; /* azul */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Georgia', serif;
+    }
+
+    .carta {
+      background: #fffdf7;
+      padding: 50px;
+      width: 80%;
+      max-width: 650px;
+      box-shadow: 0 20px 35px rgba(0,0,0,0.2);
+
+      /* bordes tipo papel roto */
+      clip-path: polygon(
+        0% 5%, 5% 0%, 95% 0%, 100% 5%,
+        100% 95%, 95% 100%, 5% 100%, 0% 95%
+      );
+    }
+
+    h1 {
+      text-align: center;
+      color: #4a90e2;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="carta">
+  <h1>Para mi niña 💖</h1>
+
+  <p>
+    Estimada Isidora (la niña más hermosa del mundo)<br><br>
+    Bueno, se me a ocurrido hacer esto porque es una tontera mia jeje, estos dias me he sentido super bien con usted y pues que más decirle, expresarle lo que siento 
+    solo con palabras no me alcanza, se que no soy perfecto y los caminos de la vida son dificiles pero me encantaria que Dios me guie y mucho mejor si usted va junto a mi
+    puede que sea muy temprano para decirle muchas cosas y mañana mismo se cumple un mes de haberle respondido esa nota que puso (no me arrepiento jeje). Hemos avanzado tan rapido 
+    pero enserio mi niña he tenido una conexión tan fuerte con usted, simplemente esta hecha para mi, y como usted me trata es tan hermoso y lo valoro mucho.<br>
+    Y de la forma más egoista no quiero que nadie más sepa como es estar con usted ni ha como saben sus labios porque ya me enamore hasta de la forma que me mira cuando hago mis 
+    tonteras de niño chico. Hoy en día muchas personas buscan tener un momento con muchas personas pero yo quisiera tener muchos momentos junto a su persona, si hace falta le hago aseo en 
+    toda la casa a la suegrita jsjsjsjs.<br>
+    Es perfecta simplemente, es hermosa usted y no me lo niegue eh, cuidadito, sus ojos y su carita me enamoran, esque simplemente eres tu mi chica del sur, su pelo suelto junto al cielo azul, digo 
+    muchas tonteras pero por usted grito te amo a la tierra entera. Y la verdad no me importa mandarme sendos piques para ir a verla aunque me duelan mucho las piernas porque aunque no lo crea esos 10-20 
+    minutos que paso con usted me alegran la semanita entera y pues si con verla un ratito me alegra imaginese una hora wuaaaaaa, me vuelvo loco.<br>
+    Gracias por haber llegado a mi vida y realmente quiero que contigo funcione sea como sea porque yo estoy dispuesto a hacer lo imposible solo por estar contigo...<br>
+    Te amo mucho mi niña 🤍<br>
+    Atentamente: Su niño loco de amor por usted, Adán.
+  </p>
+
+</div>
+
+</body>
+</html>
