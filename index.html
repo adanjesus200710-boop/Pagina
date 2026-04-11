@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pregunta importante</title>
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6eb;
+      padding-top: 100px;
+      overflow: hidden;
+    }
+
+    h1 {
+      color: #ff4d6d;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .yes {
+      background-color: #ff4d6d;
+      color: white;
+    }
+
+    .no {
+      background-color: #999;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1 id="question">¿Te gustaría tener una relación bonita conmigo? 💖</h1>
+
+<button class="yes" onclick="yes()">Sí 💘</button>
+<button class="no">No 😒</button>
+
+<script>
+function yes() {
+  document.body.innerHTML = `
+    <h1>Ya sabía que dirías que sí 😍💘</h1>
+    <img src="https://i.imgur.com/UVa1K5Z.jpeg"
+         style="width:300px; border-radius:15px; margin:20px;">
+
+    <p>Tengo algo que decirte.... 💌</p>
+
+    <button onclick="ir()">Siguiente sorpresa 🎁</button>
+  `;
+}
+
+function ir() {
+  window.location.href = "file:///C:/Users/ACER/OneDrive/Escritorio/Carpeta%20personal%20regalo/Pagina%20web/Carta.html";
+}
+
+// BOTÓN TROLL
+const noBtn = document.querySelector(".no");
+
+noBtn.addEventListener("mouseover", () => {
+  noBtn.style.position = "absolute";
+
+  let x = Math.random() * (window.innerWidth - 100);
+  let y = Math.random() * (window.innerHeight - 50);
+
+  noBtn.style.left = x + "px";
+  noBtn.style.top = y + "px";
+
+  const mensajes = [
+    "¿Segura? 🤔",
+    "Piénsalo bien, si yo te amo 😘",
+    "No es opción válida 😤",
+    "Intenta otra vez 😝",
+    "MMMMMMM 🤨",
+    "Muack Muack 😜"
+  ];
+
+  document.getElementById("question").innerText =
+    mensajes[Math.floor(Math.random() * mensajes.length)];
+});
+</script>
+
+</body>
+</html>
